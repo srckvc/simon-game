@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(38, 38, 79);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Tillana", cursive;
+  font-size: 48px;
+  color: antiquewhite;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  margin: 20px;
+  border-radius: 15%;
+  border: 8px solid black;
+}
+
+.green {
+  background-color: rgb(16, 229, 16);
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: rgb(8, 8, 223);
+}
+
+.pressed {
+  background-color: gray;
+  box-shadow: 0 0 20px white;
+}
+
+.game-over {
+  background-color: rgb(168, 67, 67);
+  opacity: 0.8;
+}
